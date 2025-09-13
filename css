@@ -1,0 +1,288 @@
+body {
+margin: 0;
+padding: 0;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+}
+.left-login-image {
+
+    width: 35vw;
+    height: auto;
+    
+}
+.left-login h1 {
+
+    color: greenyellow;
+    font-weight: 800px;
+}
+.main-login {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.left-login {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;   
+    background-color: black;
+    
+}
+
+.lembrar-de-mim {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+}
+input[type="checkbox"].checkbox-lembrar-de-mim {
+    margin-right: 5px;
+    width: 1px;
+    height: 10px;
+    accent-color: blue;
+    }
+
+
+.cadastro-se-button {
+    background-color: greenyellow;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: center;
+    font-weight: 800;
+}
+.cadastro-se-button:hover {
+    background-color: hsl(120, 100%, 25%);
+    color: white;
+    transition: background-color 0.3s ease;
+    transform: translateY(-2px);
+    place-content: center;
+    background-color: black;
+    color: blue;
+    
+        
+    }
+
+           
+
+.right-login {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.left-login-image {
+    width: 35%;
+    height: auto;
+}
+
+   
+.form-card {
+    margin: 200px;
+    font-weight: 800;
+    background-color: rgb(15, 15, 15);
+    padding: 20px 20px;
+    border-radius: 10px;
+    box-shadow: 0 40px 40px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    box-sizing: border-box;
+    border: 2px solid blue;
+    color: rgb(255, 55, 0);
+    text-align: center;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form-card input {
+    background: black;
+    width: 100%;
+    height: 40px;
+    padding: 15px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 10px;
+    background-color: hsl(120, 100%, 25%);
+    color:blue;
+    font-size: 12px;
+    box-sizing: border-box;
+    align-items: 40px ;
+    font-weight: 80px;
+    transition: all 0.3s ease;
+    outline: none;
+}
+.form-card input::placeholder {
+    color:greenyellow;
+    font-weight: 30%;
+    font-size: 12px;
+    line-height: 1.5;
+    opacity: 0.7;
+    padding: 10px;
+    text-align: left;
+    box-sizing: border-box;
+}
+
+.form-card button {
+    padding: 2px;
+    margin: 0 ;
+    border: none;
+    border-radius: 12px;
+    background-color: greenyellow;
+    color: rgb(244, 7, 7);
+    font-size: 16px;
+    font-weight: 30px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    width: 100%;
+    height: 10%;
+    box-sizing: border-box;
+    text-align: center;
+    align-items: center;
+}
+.form-card button:hover {
+    background-color: hsl(120, 100%, 25%);
+    color: white;
+    transition: background-color 0.3s ease;
+    transform: translateY(-2px);
+        background-color: black;
+        color: rgb(12, 12, 12);
+        font-weight: 800;
+
+    }
+.form-card button:active {
+    transform: translateY(2px);
+    transition: all 0.1s ease;
+}
+
+
+.register-link {
+    color: blue;
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+
+.register-link a {
+    color: greenyellow;
+    text-decoration: register-link;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    
+
+}
+.register-link a:hover {
+    text-decoration: underline;
+    transform: translateY(-2px);
+    transition: all 0.3s ease;
+
+}
+
+.imagem-login-image {
+    width: 50%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.form-card h1 {
+    color: rgb(255, 151, 47);
+    font-weight: 20%;
+    margin-bottom: 20px;
+}
+.form-card label {
+    color: greenyellow;
+    font-weight: 800;
+    font-size: 12px;
+    text-align: left;
+    display: flex;
+    margin-bottom: 5px;
+    width: 50%;
+}
+.form-card .input-field {
+    margin-bottom: 20px;
+    width: 50%;
+}
+.form-card .input-field:last-child {
+    margin-bottom: 0;
+    width: 5%;
+}
+.form-card .input-field input {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.form-card .input-field input:focus {
+    border: 2px solid blue;
+    box-shadow: 0 0 5px rgba(0, 0, 255, 0.5);
+    outline: none;
+}
+.form-card .input-field input:hover {
+    border: 2px solid blue;
+    box-shadow: 0 0 5px rgba(0, 0, 255, 0.5);
+    outline: none;
+}
+.caixa-de-cadastro {
+    margin: 50px;
+    font-weight: 30%;
+    background-color: rgb(15, 15, 15);
+    padding: 20px;
+    border-radius: 10px;
+    width: 500px;
+    height: 5% auto;
+    font-weight: 50px;
+    align-items: baseline   ;
+    border: 2px solid blue;
+    color: rgb(30, 255, 0);
+    text-align: center;
+    
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    animation-play-state: inherit;
+    transform-box: fill-box;
+    box-sizing: border-box;
+
+
+
+}
+.caixa-de-cadastro input {
+    background: black;
+    width: 50vw;
+
+    height: 20px;
+    padding: 15px;
+    margin: 5px;
+    width: 90%;
+    border: none;
+    border-radius: 15px;
+    background-color: hsl(120, 100%, 25%);
+    color:blue;
+
+    font-size: 12px;
+    box-sizing: auto;
+    box-sizing: content-box;
+    justify-content: center;
+    font-weight: 40px;
+    transition: all 0.3s ease;
+
+
+}
+
