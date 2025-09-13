@@ -1,1 +1,165 @@
 # login-cadastro
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AV Programação Web</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    
+    <link rel="stylesheet" href="style.css">
+    <div class="main-login">
+        <div class="left-login">
+            <h1>faça login <br>E aproveite a experiência</h1>
+        </div>
+
+    <div class="right-login">
+<h1>Login</h1>
+<img src="https://storyset.com/control" class="imagem-login-image" src="imagem.svg" alt="manipulacao-control illustrations by Storyset">
+        <form class="form-card">
+            <div class="input-field"></div>
+                <label for="email"> Usuário </label><br>
+                <input type="text" placeholder="Email" name="Email" required><br>
+
+            <br>
+
+  
+      <label for="senha" class="center" placeholder="senha ">Senha </label><br>
+      <input type="password" placeholder="Senha" name="senha" required>
+<br>
+      <br>
+        <label>
+          <input type="checkbox"> Lembrar de mim</label><br><br>
+
+
+
+         <button type="submit" class="login">Login</button><br><br>
+
+         <a href="#">Esqueci minha senha</a>
+        
+
+
+        <p class="register-link">Não tem conta? 
+            <a href="cadastre-se">Cadastre-se</a></p>
+
+   
+   </form>
+  </div>
+
+    <div class="C"> 
+        <h1>Cadastro</h1>
+    
+    <form class="form-card">
+        <br>
+    </form><br>
+    <form class="caixa-de-cadastro">
+        <label for="nome" placeholder="Nome completo *"></label>
+        <input type="text" placeholder="Nome completo *" id="nome" name="nome" required>
+
+      <label for="nascimento" placeholder="Data de nascimento *"></label>
+      <input type="date" id="nascimento" placeholder="Data de nascimento *" required>
+
+      <label for="cpf">CPF *</label>
+      <input type="text" id="cpf" placeholder="CPF *" name="cpf" required>
+
+      <label for="rg">RG *</label>
+      <input type="text" id="rg" placeholder="RG *" name="rg" required>
+
+      <p>Gênero *</p>
+      <label><input type="radio" name="genero" value="masculino" required> Masculino</label>
+      <label><input type="radio" name="genero" value="feminino"> Feminino</label>
+      <label><input type="radio" name="genero" value="outro"> Outro</label>
+
+      <label for="estado-civil">Estado civil *</label>
+      <select id="estado-civil" name="estado-civil" required>
+        <option value="">Selecione</option>
+        <option>Solteiro</option>
+        <option>Casado</option>
+        <option>Divorciado</option>
+        <option>Viúvo</option>
+      </select>
+
+      <label for="nacionalidade">Nacionalidade *</label>
+      <input type="text" id="nacionalidade" name="nacionalidade" required>
+
+      <label for="naturalidade">Naturalidade (Cidade/Estado) *</label>
+      <input type="text" id="naturalidade" name="naturalidade" required>
+
+      <h3>Endereço</h3>
+      <input type="text" placeholder="CEP" required>
+      <input type="text" placeholder="Rua" required>
+      <input type="text" placeholder="Número" required>
+      <input type="text" placeholder="Complemento">
+      <input type="text" placeholder="Bairro" required>
+      <input type="text" placeholder="Cidade" required>
+      <input type="text" placeholder="Estado" required>
+
+      <h3>Contato</h3>
+      <input type="tel" placeholder="Telefone fixo">
+      <input type="tel" placeholder="Celular" required>
+
+      <label for="email">E-mail *</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="confirmar-email">Confirme o E-mail *</label>
+      <input type="email" id="confirmar-email" name="confirmar-email" required>
+
+      <label for="senha">Senha *</label>
+      <input type="password" id="senha" name="senha" required>
+
+      <label for="confirmar-senha">Confirme a Senha *</label>
+      <input type="password" id="confirmar-senha" name="confirmar-senha" required>
+
+      <label>Foto de perfil</label>
+      <input type="file" accept="image/*">
+
+      <label>Upload de documentos (RG, CPF, Comprovante de residência)</label>
+      <input type="file" multiple>
+
+      <label for="escolaridade">Escolaridade *</label>
+      <select id="escolaridade" name="escolaridade" required>
+        <option value="">Selecione</option>
+        <option>Fundamental</option>
+        <option>Médio</option>
+        <option>Superior</option>
+        <option>Pós-graduação</option>
+      </select>
+
+      <p>Curso de interesse *</p>
+      <label><input type="checkbox" name="curso" value="ADS"> Análise e Desenvolvimento de Sistemas</label>
+      <label><input type="checkbox" name="curso" value="SI"> Sistemas de Informação</label>
+      <label><input type="checkbox" name="curso" value="EngSoft"> Engenharia de Software</label>
+
+      <label for="pai">Nome do pai</label>
+      <input type="text" id="pai" name="pai">
+
+      <label for="mae">Nome da mãe</label>
+      <input type="text" id="mae" name="mae">
+
+      <h3>Contato de emergência</h3>
+      <input type="text" placeholder="Nome" required>
+      <input type="tel" placeholder="Telefone" required>
+      <input type="text" placeholder="Parentesco" required>
+
+      <p>Possui necessidades especiais?</p>
+      <label><input type="checkbox" id="necessidades"> Sim</label>
+      <textarea placeholder="Descreva suas necessidades"></textarea>
+
+      <p>Preferência de turno *</p>
+      <label><input type="radio" name="turno" value="manha" required> Manhã</label>
+      <label><input type="radio" name="turno" value="tarde"> Tarde</label>
+      <label><input type="radio" name="turno" value="noite"> Noite</label>
+
+      <label>
+        <input type="checkbox" required> Aceito os termos e condições
+      </label>
+
+      <button type="submit">Cadastrar</button>
+    </form>
+  </div>
+</body>
+
+</body>
+</html>
+
